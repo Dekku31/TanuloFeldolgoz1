@@ -5,8 +5,8 @@ print("Tanulok feldolgozása.")
 tanulok = []
 while True:
     print("\nKérem a tanuló adatait:")
-    nev = input("Tanuló")
-    szId = input("Születési ideje:")
+    nev = input("Tanuló neve: ")
+    szId = input("Születési ideje: ")
     magassag = int(input("Magasság: "))
 
     tanulo =(nev, szId, magassag)
@@ -21,4 +21,4 @@ while True:
 #3 Hozzáférés 
 print("\nTanulók listája\n")
 for item in tanulok:
-    print(f"Név: {item[0]}, születési ideje: {item[1]}, magasság: {item[2]}")
+    print(f"Sorszám: {i+1}. - Név: {item[0]}, születési ideje: {item[1]}, magasság: {item[2]}")
